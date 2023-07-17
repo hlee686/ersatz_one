@@ -7,7 +7,7 @@ export const EmailLogin = () => {
   useEffect(() => {
     checkIsEmailLogin().then((res) => {
       if (res) {
-        nav("/be-labs");
+        nav("/");
       }
     });
   }, []);

@@ -211,12 +211,13 @@ export const getPostsByCustomId = async (customId: string) => {
     return null;
   }
 
-  let result = null;
+  let result = null ;
 
   const temp = await searchData("posts", ["uid", "==", user.uid]);
+  console.log(temp)
   temp.map((post) => {
     post.postId = post.id;
-    delete post.id;
+    delete post.id; 
     return post;
   });
 

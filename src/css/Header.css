@@ -1,0 +1,22 @@
+.newPost {
+  display: block;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: 190px;
+  margin-top: 20px;
+  width: 100px;
+  height: 35px;
+}
+
+.search {
+  display: block;
+  margin-left: auto;
+  margin-right: 320px;
+  margin-top: -30px;
+}
+
+.velog{
+  margin-top: -30px;
+  font-size: 40px;
+}
